@@ -1,0 +1,98 @@
+dataset,category,metric,period,value,unit,source,notes
+industry,Australia,egg production,2023-24,581.8,million dozen,Australian Eggs Annual Report 2024,
+industry,Australia,egg production,2024-25,573.1,million dozen,Australian Eggs Annual Report 2025,
+industry,Australia,layer hens,2023-24,21.25,million,Australian Eggs Annual Report 2024,
+industry,Australia,layer hens,2024-25,24.89,million,Australian Eggs Annual Report 2025,
+industry,Australia,pullets and layers,2023-24,29.35,million,Australian Eggs Annual Report 2024,
+industry,Australia,pullets and layers,2024-25,34.11,million,Australian Eggs Annual Report 2025,
+industry,Australia,farm-gate value,2023-24,1.1,AUD billion,Australian Eggs Annual Report 2024,
+industry,Australia,farm-gate value,2024-25,1.38,AUD billion,Australian Eggs Annual Report 2025,
+supermarket,All eggs,sales value,2023-24,1370087688,AUD,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+supermarket,All eggs,dozens sold,2023-24,247994500,dozen,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+supermarket,All eggs,average price per dozen,2023-24,5.52,AUD,Australian Eggs Annual Report 2024,DERIVED: sales value / dozens sold
+supermarket,All eggs,sales value,2024-25,1576292875,AUD,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+supermarket,All eggs,dozens sold,2024-25,248024200,dozen,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+supermarket,All eggs,average price per dozen,2024-25,6.36,AUD,Australian Eggs Annual Report 2025,DERIVED: sales value / dozens sold
+egg type,Free range,share of dozens sold,2023-24,57.4,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Free range,share of dozens sold,2024-25,56.6,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Free range,share of sales value,2023-24,61.9,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Free range,share of sales value,2024-25,61.1,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Free range,dozens sold,2024-25,140.3,million dozen,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Free range,change in dozens sold,2024-25,-2.0,percent,Australian Eggs Annual Report 2025,"as reported, vs prior year"
+egg type,Free range,implied price per dozen,2023-24,5.95,AUD,DERIVED,value share / volume share x average price (5.52)
+egg type,Free range,implied price per dozen,2024-25,6.87,AUD,DERIVED,value share / volume share x average price (6.36)
+egg type,Barn-laid,share of dozens sold,2023-24,20.9,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Barn-laid,share of dozens sold,2024-25,27.7,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Barn-laid,share of sales value,2023-24,18.4,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Barn-laid,share of sales value,2024-25,24.0,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Barn-laid,dozens sold,2024-25,68.8,million dozen,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Barn-laid,change in dozens sold,2024-25,25.3,percent,Australian Eggs Annual Report 2025,"as reported, vs prior year"
+egg type,Barn-laid,implied price per dozen,2023-24,4.86,AUD,DERIVED,value share / volume share x average price (5.52)
+egg type,Barn-laid,implied price per dozen,2024-25,5.51,AUD,DERIVED,value share / volume share x average price (6.36)
+egg type,Cage,share of dozens sold,2023-24,19.7,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Cage,share of dozens sold,2024-25,13.3,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Cage,share of sales value,2023-24,15.7,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Cage,share of sales value,2024-25,10.8,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Cage,dozens sold,2024-25,33.1,million dozen,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Cage,change in dozens sold,2024-25,-31.6,percent,Australian Eggs Annual Report 2025,"as reported, vs prior year"
+egg type,Cage,implied price per dozen,2023-24,4.4,AUD,DERIVED,value share / volume share x average price (5.52)
+egg type,Cage,implied price per dozen,2024-25,5.16,AUD,DERIVED,value share / volume share x average price (6.36)
+egg type,Specialty (includes organic),share of dozens sold,2023-24,2.1,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Specialty (includes organic),share of dozens sold,2024-25,2.4,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Specialty (includes organic),share of sales value,2023-24,4.0,percent,Australian Eggs Annual Report 2024,"Circana, major supermarkets"
+egg type,Specialty (includes organic),share of sales value,2024-25,4.2,percent,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Specialty (includes organic),dozens sold,2024-25,5.8,million dozen,Australian Eggs Annual Report 2025,"Circana, major supermarkets"
+egg type,Specialty (includes organic),change in dozens sold,2024-25,8.1,percent,Australian Eggs Annual Report 2025,"as reported, vs prior year"
+egg type,Specialty (includes organic),implied price per dozen,2023-24,10.51,AUD,DERIVED,value share / volume share x average price (5.52)
+egg type,Specialty (includes organic),implied price per dozen,2024-25,11.13,AUD,DERIVED,value share / volume share x average price (6.36)
+state flock,NSW/ACT,share of pullets and layers,2024,36.0,percent,Australian Eggs Annual Report 2024,
+state flock,NSW/ACT,share of pullets and layers,2025,34.1,percent,Australian Eggs Annual Report 2025,label alignment read from report layout
+state flock,Qld,share of pullets and layers,2024,28.6,percent,Australian Eggs Annual Report 2024,
+state flock,Qld,share of pullets and layers,2025,24.8,percent,Australian Eggs Annual Report 2025,label alignment read from report layout
+state flock,Vic,share of pullets and layers,2024,22.3,percent,Australian Eggs Annual Report 2024,
+state flock,Vic,share of pullets and layers,2025,26.0,percent,Australian Eggs Annual Report 2025,label alignment read from report layout
+state flock,WA,share of pullets and layers,2024,6.3,percent,Australian Eggs Annual Report 2024,
+state flock,WA,share of pullets and layers,2025,9.1,percent,Australian Eggs Annual Report 2025,label alignment read from report layout
+state flock,SA,share of pullets and layers,2024,5.5,percent,Australian Eggs Annual Report 2024,
+state flock,SA,share of pullets and layers,2025,5.0,percent,Australian Eggs Annual Report 2025,label alignment read from report layout
+state flock,Tas,share of pullets and layers,2024,1.3,percent,Australian Eggs Annual Report 2024,
+state flock,Tas,share of pullets and layers,2025,1.0,percent,Australian Eggs Annual Report 2025,label alignment read from report layout
+brand,Private label (supermarket own brand),share of dozens sold,2023-24,57.1,percent,Australian Eggs Annual Report 2024,
+brand,Private label (supermarket own brand),share of sales value,2023-24,50.3,percent,Australian Eggs Annual Report 2024,
+brand,Private label (supermarket own brand),share of dozens sold,2024-25,54.2,percent,Australian Eggs Annual Report 2025,
+brand,Private label (supermarket own brand),share of sales value,2024-25,45.0,percent,Australian Eggs Annual Report 2025,
+pack size,12-pack,share of dozens sold,2024-25,84.6,percent,Australian Eggs Annual Report 2025,
+pack size,18-pack,share of dozens sold,2024-25,10.0,percent,Australian Eggs Annual Report 2025,
+pack size,6-pack,share of dozens sold,2024-25,3.9,percent,Australian Eggs Annual Report 2025,
+pack size,30 tray,share of dozens sold,2024-25,1.1,percent,Australian Eggs Annual Report 2025,
+pack size,Other,share of dozens sold,2024-25,0.4,percent,Australian Eggs Annual Report 2025,
+consumption,Australia,eggs per person per year,2014-15,221,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2015-16,226,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2016-17,231,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2017-18,245,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2018-19,247,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2019-20,246,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2020-21,249,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2021-22,262,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2022-23,263,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2023-24,266,eggs,Australian Eggs industry overview / annual reports,
+consumption,Australia,eggs per person per year,2024-25,259,eggs,Australian Eggs industry overview / annual reports,
+trade,Shell eggs,export volume,2024-25,727.57,tonnes,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Shell eggs,export value,2024-25,4.76,AUD million,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Egg pulp/liquid,export volume,2024-25,389.0,tonnes,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Egg pulp/liquid,export value,2024-25,2.19,AUD million,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Eggs preserved/cooked,import volume,2024-25,660.1,tonnes,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Eggs preserved/cooked,import value,2024-25,4.16,AUD million,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Egg pulp/liquid,import volume,2024-25,1712.46,tonnes,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Egg pulp/liquid,import value,2024-25,8.8,AUD million,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Egg powder,import volume,2024-25,2000.89,tonnes,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+trade,Egg powder,import value,2024-25,28.81,AUD million,Australian Eggs Annual Report 2025 (ABS),pasteurised eggs are sold mainly as liquid egg products; no retail share published
+disease,Australia,layer flock lost to H7 avian influenza,2024-25,7,percent,Industry and news reports (see dashboard footer),approximate; sources differ
+disease,Australia,birds culled (H7 outbreaks),2024-25,1.8,million,Industry and news reports (see dashboard footer),approximate; sources differ
+prices,Australia,"egg price rise, 12 months to June 2025",2024-25,19.1,percent,ABS CPI (reported by Money Magazine),
+case study,Josh's Rainbow Eggs,hens,start,40,hens,news.com.au article (undated),as reported then; not verified
+case study,Josh's Rainbow Eggs,hens,2012,1500,hens,news.com.au article (undated),as reported then; not verified
+case study,Josh's Rainbow Eggs,hens,2013,2000,hens,news.com.au article (undated),as reported then; not verified
+case study,Josh's Rainbow Eggs,hens,2015,10000,hens,news.com.au article (undated),as reported then; not verified
+case study,Josh's Rainbow Eggs,annual turnover,reported,5,AUD million,news.com.au article (undated),as reported then; not verified
+case study,Josh's Rainbow Eggs,supermarket stores stocking eggs,reported,100,stores (more than),news.com.au article (undated),as reported then; not verified
