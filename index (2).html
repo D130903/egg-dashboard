@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Australian Egg Industry: Key Factors Dashboard</title>
+<style>
+:root{--bg:#faf7f0;--card:#fff;--tx:#2b2a26;--mu:#6b675c;--ac:#d98a00;--ac2:#b3402a;--c3:#5b8a72;--c4:#7a6fb0;--bd:#e6dfcc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1915;--card:#25231e;--tx:#f0ebdd;--mu:#a39e8c;--ac:#f2b233;--ac2:#e5755f;--c3:#7fb89b;--c4:#a399d6;--bd:#3a372e}}
+:root[data-theme="dark"]{--bg:#1a1915;--card:#25231e;--tx:#f0ebdd;--mu:#a39e8c;--ac:#f2b233;--ac2:#e5755f;--c3:#7fb89b;--c4:#a399d6;--bd:#3a372e}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:1.6rem;margin:0 0 4px}h2{font-size:1.02rem;margin:0 0 4px}
+.sub{color:var(--mu);margin:0 0 16px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-bottom:12px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;min-width:0}
+.k{font-size:1.5rem;font-weight:700;color:var(--ac)}.k.r{color:var(--ac2)}
+.l{color:var(--mu);font-size:.8rem}
+.bars{display:flex;align-items:flex-end;gap:6px;height:170px;margin-top:10px}
+.b{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;font-size:.68rem;color:var(--mu);text-align:center}
+.b i{display:block;width:100%;background:var(--ac);border-radius:4px 4px 0 0}
+.b span{margin-bottom:3px;color:var(--tx);font-weight:600}
+.pair{display:flex;gap:2px;align-items:flex-end;width:100%;height:100%}
+.pair .b{height:100%}
+.leg{display:flex;gap:12px;font-size:.75rem;color:var(--mu);margin-top:8px;flex-wrap:wrap}
+.leg u{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;text-decoration:none}
+.st{display:flex;height:34px;border-radius:6px;overflow:hidden;margin:8px 0 2px;font-size:.72rem;color:#fff}
+.st div{display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+button{border:1px solid var(--bd);background:var(--card);color:var(--tx);padding:6px 12px;border-radius:20px;cursor:pointer;font:inherit;font-size:.85rem}
+button.on{background:var(--ac);color:#1a1915;border-color:var(--ac)}
+.tl{border-left:3px solid var(--ac);padding-left:12px;margin:8px 0 0}
+.tl p{margin:0 0 8px}.tl b{color:var(--ac)}
+.ins{border-left:3px solid var(--ac2);padding-left:12px;margin:0 0 12px}
+footer{color:var(--mu);font-size:.78rem;margin-top:16px}
+table{width:100%;border-collapse:collapse;font-size:.85rem;min-width:620px}th,td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--bd)}th{color:var(--mu);font-weight:600;font-size:.75rem}
+.sw{overflow-x:auto}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+.bar{display:inline-block;height:8px;border-radius:4px;vertical-align:middle;margin-right:6px}
+.pos{color:var(--c3)}.neg{color:var(--ac2)}.tag{font-size:.7rem;color:var(--mu);border:1px solid var(--bd);border-radius:10px;padding:1px 7px}
+</style></head><body><main>
+<h1>Australian Egg Industry: What Drives the Business?</h1>
+<p class="sub">What affects Australia's egg business: how many eggs are produced, what people buy, bird flu, costs and animal welfare rules. Built from the Australian Eggs annual reports (2024 and 2025) plus government and bank research.</p>
+
+<div class="grid">
+<div class="card"><div class="k">573.1m</div><div class="l">dozen eggs produced in 2024-25 (581.8m the year before)</div></div>
+<div class="card"><div class="k">$1.38bn</div><div class="l">value of eggs sold by farmers in 2024-25 (up 25% from $1.1bn)</div></div>
+<div class="card"><div class="k">24.9m</div><div class="l">egg-laying hens in June 2025 (up 17% from 21.3m)</div></div>
+<div class="card"><div class="k r">$6.36</div><div class="l">average supermarket price per dozen in 2024-25 (up 15%)</div></div>
+<div class="card"><div class="k">259</div><div class="l">eggs eaten per person per year (266 the year before)</div></div>
+<div class="card"><div class="k r">13.3%</div><div class="l">of eggs sold were cage eggs (19.7% the year before)</div></div>
+</div>
+
+<div class="card ins"><h2>Key insight</h2>
+Supermarkets sold about the same number of eggs both years (around 248 million dozen), but shoppers spent more: $1.37bn rose to $1.58bn. Higher prices, not more eggs sold, caused the growth.</div>
+
+<div class="grid g2">
+<div class="card"><h2>Average supermarket price per dozen ($)</h2><div class="l">Money spent divided by dozens sold, big supermarkets (Circana)</div>
+<div class="bars" id="pr"></div></div>
+<div class="card"><h2>Share of eggs sold, by type</h2><div class="l">Cage eggs are mostly being replaced by barn-laid</div>
+<div id="sys"></div></div>
+</div>
+
+<div class="grid g2">
+<div class="card"><h2>Where the hens are, by state</h2><div class="l">Share of all hens and young hens, June</div>
+<div class="bars" id="stt"></div>
+<div class="leg"><span><u style="background:var(--c4)"></u>2024</span><span><u style="background:var(--ac)"></u>2025</span></div></div>
+<div class="card"><h2>Eggs eaten per person per year</h2><div class="l">Australian Eggs, years ending June</div>
+<div class="bars" id="pc"></div></div>
+</div>
+
+<div class="card" style="margin-bottom:12px"><h2>What customers buy: types of eggs (big supermarkets, 2024-25)</h2>
+<div class="l">For every 100 dozen eggs sold, how many were each type; for every $100 spent, how much went to each type; and the typical price per dozen</div>
+<div class="sw"><table id="seg"></table></div>
+<p class="l" style="margin:10px 0 0"><b>Organic</b> is not listed separately. It is counted inside <i>Specialty</i> with other niche eggs, so organic is at most the Specialty figure. <b>Pasteurised</b> eggs (heat-treated for safety) are mostly sold as liquid egg to restaurants and food makers, not in supermarket cartons. No share figure is published. In 2024-25 Australia imported 1,712 tonnes of liquid egg ($8.8m) and exported 389 tonnes ($2.2m).</p></div>
+<div class="grid g2">
+<div class="card"><h2>Supermarket own brand or named brand?</h2><div class="l">Share of eggs sold</div><div id="lab"></div></div>
+<div class="card"><h2>Which pack size do shoppers pick?</h2><div class="l">Share of eggs sold, 2024-25</div><div id="pk"></div></div>
+</div>
+<div class="card" style="margin-bottom:12px"><h2>Case study: Josh's Rainbow Eggs (free range, Victoria)</h2>
+<div class="l">A small farm that grew by selling free-range eggs through the big supermarkets (news.com.au report; figures as reported then)</div>
+<div class="grid g2" style="margin:8px 0 0"><div><div class="l" style="margin-top:6px">Number of hens</div><div class="bars" id="jb"></div></div>
+<div class="tl" style="margin:0"><p><b>Start</b> 40 hens left on the farm; a 9-year-old began selling the eggs to neighbours.</p>
+<p><b>2012</b> First worker hired, 1,500 hens.</p><p><b>2015</b> 10,000 hens and 8 full-time staff. After an email to Coles, the family met head office and won shelf space, then Woolworths followed.</p>
+<p><b>Later</b> Over $5m a year in sales, stocked in more than 100 supermarkets.</p></div></div>
+<p class="l" style="margin:10px 0 0"><b>What it shows:</b> Free range is the biggest egg type (56.6% of eggs sold) and shoppers pay about $6.87 a dozen for it. Winning supermarket shelf space was the growth step for this producer. Supermarket own brands now make up 54.2% of eggs sold, so named brands like this one compete for the rest.</p></div>
+<div class="card" style="margin-bottom:12px">
+<h2>Factor explorer</h2>
+<div class="tabs" id="tabs"></div><div id="fx"></div>
+</div>
+
+<div class="card">
+<h2>Timeline of supply shocks</h2>
+<div class="tl">
+<p><b>2022-23</b> National shortage from volatile demand, rising free-range share and poor weather.</p>
+<p><b>2024</b> Three strains of H7 avian influenza in Victoria, NSW and ACT: the largest flock loss on record, about 7% of capacity.</p>
+<p><b>Early 2025</b> Further Victorian outbreak (about 1.8m birds culled in total); supermarkets cap carton purchases.</p>
+<p><b>2024-25</b> Hens are replaced (+17%) but fewer eggs are produced (573m dozen) because new hens take 18-20 weeks to start laying.</p>
+<p><b>2025</b> Major supermarkets complete caged-egg phase-out; cage egg sales fall about 32%.</p>
+<p><b>Risk</b> H5N1 confirmed in wild birds in parts of Australia, a threat to layer farms.</p>
+</div></div>
+
+<footer>Sources: Australian Eggs Annual Reports 2024 and 2025 (production, flock, state shares, per capita, supermarket sales data from Circana); Dept of Agriculture, Fisheries and Forestry (value of eggs at the farm); news.com.au (Josh's Rainbow Eggs case study); ABS; ABARES via NSW DPI and IBISWorld; ANZ Research. Typical price per dozen is calculated, not reported: money spent divided by dozens sold. For each type, it is its share of money divided by its share of eggs, times the $6.36 average. It covers big supermarkets only. Eggs eaten per person was reported at 267 after the 2025 report came out.</footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+function bars(id,d,min,max,col){$(id).innerHTML=d.map(([l,v])=>`<div class="b"><span>${v}</span><i style="height:${(v-min)/(max-min)*100}%;${col?'background:'+col:''}"></i>${l}</div>`).join("")}
+bars("pr",[["2023-24",5.52],["2024-25",6.36]],0,7);
+bars("pc",[["14-15",221],["15-16",226],["16-17",231],["17-18",245],["18-19",247],["19-20",246],["20-21",249],["21-22",262],["22-23",263],["23-24",266],["24-25",259]],180,270);
+const S=[["NSW/ACT",36.0,34.1],["Qld",28.6,24.8],["Vic",22.3,26.0],["WA",6.3,9.1],["SA",5.5,5.0],["Tas",1.3,1.0]];
+$("stt").innerHTML=S.map(([l,a,b])=>`<div class="b"><div class="pair"><div class="b"><span>${a}</span><i style="height:${a/40*100}%;background:var(--c4)"></i></div><div class="b"><span>${b}</span><i style="height:${b/40*100}%"></i></div></div>${l}</div>`).join("");
+const T=[["Free range",57.4,56.6,"var(--c3)"],["Barn",20.9,27.7,"var(--ac)"],["Cage",19.7,13.3,"var(--ac2)"],["Specialty",2.1,2.4,"var(--c4)"]];
+$("sys").innerHTML=["2023-24","2024-25"].map((y,i)=>`<div class="l" style="margin-top:8px">${y}</div><div class="st">${T.map(t=>`<div style="width:${t[i+1]}%;background:${t[3]}">${t[i+1]>6?t[i+1]+'%':''}</div>`).join("")}</div>`).join("")+`<div class="leg">${T.map(t=>`<span><u style="background:${t[3]}"></u>${t[0]}</span>`).join("")}</div>`;
+const A=6.36,vs=[["Free range",56.6,61.1,-2.0,140.3,"var(--c3)",57.4,61.9],["Barn-laid",27.7,24.0,25.3,68.8,"var(--ac)",20.9,18.4],["Cage",13.3,10.8,-31.6,33.1,"var(--ac2)",19.7,15.7],["Specialty (includes organic)",2.4,4.2,8.1,5.8,"var(--c4)",2.1,4.0]];
+$("seg").innerHTML="<tr><th>Type of egg</th><th>Share of eggs sold</th><th>Share of money spent</th><th>Dozens sold (millions)</th><th>Change in eggs sold</th><th>Typical price per dozen</th><th>Extra cost vs cage</th></tr>"+vs.map(r=>{const p=r[2]/r[1]*A,c=13.3?10.8/13.3*A:0;return`<tr><td><span class="dot" style="background:${r[5]}"></span>${r[0]}</td><td><span class="bar" style="width:${r[1]*1.2}px;background:${r[5]}"></span>${r[1]}%</td><td>${r[2]}%</td><td>${r[4]}m</td><td class="${r[3]>0?'pos':'neg'}">${r[3]>0?'+':''}${r[3]}%</td><td>$${p.toFixed(2)}</td><td>${r[0]=="Cage"?"-":"+"+Math.round((p/c-1)*100)+"%"}</td></tr>`}).join("")+`<tr><td><span class="dot" style="background:var(--mu)"></span>Pasteurised</td><td colspan="6"><span class="tag">no retail data published</span> see note below</td></tr>`;
+function two(id,a,b,c1,c2,n1,n2){$(id).innerHTML=[["2023-24",a],["2024-25",b]].map(([y,v])=>`<div class="l" style="margin-top:8px">${y}</div><div class="st"><div style="width:${v}%;background:${c1}">${v}%</div><div style="width:${100-v}%;background:${c2}">${(100-v).toFixed(1)}%</div></div>`).join("")+`<div class="leg"><span><u style="background:${c1}"></u>${n1}</span><span><u style="background:${c2}"></u>${n2}</span></div>`}
+two("lab",57.1,54.2,"var(--c3)","var(--c4)","Supermarket own brand","Named brands");
+const PK=[["12-pack",84.6],["18-pack",10.0],["6-pack",3.9],["30 tray",1.1],["Other",0.4]];
+$("pk").innerHTML=PK.map(([n,v])=>`<div style="display:flex;align-items:center;gap:8px;margin-top:8px;font-size:.82rem"><span style="width:62px">${n}</span><span class="bar" style="width:${v*2.4}px;background:var(--ac)"></span>${v}%</div>`).join("");
+bars("jb",[["2012",1500],["2013",2000],["2015",10000]],0,10000);
+const F={
+"Disease":["Avian influenza","H7 outbreaks in 2024-25 destroyed roughly 1.8-2 million birds and caused the largest flock loss on record. Replacement hens take months to lay, so shortages outlast outbreaks. H5N1 in wild birds is the next risk."],
+"Demand":["Consumption","Eggs eaten per person climbed from 221 to 266 a year over nine years, dipped to 259 in 2024-25 during shortages, then recovered as flocks were replaced. Population growth of about 1.7% a year adds volume."],
+"Prices":["Prices and mix","Average supermarket price per dozen rose about 15% in 2024-25 while the number of eggs sold stayed the same. Barn-laid eggs gained share as cheaper cage eggs left shelves."],
+"Welfare":["Cage-free transition","Cage egg sales fell about 32% in 2024-25 as supermarkets phased out caged eggs. Farms must re-equip sheds, which needs heavy capital and tightens supply during the switch."],
+"Costs":["Feed and farm costs","Feed is a major cost. Wheat eased to the high $300 per tonne range in 2025-26 per ABARES, but energy, labour and biosecurity costs stay high. Australian Eggs funds research into alternative feed and reduced-protein diets."]};
+const t=$("tabs"),fx=$("fx");
+Object.keys(F).forEach(n=>{const b=document.createElement("button");b.textContent=n;b.onclick=()=>show(n);t.appendChild(b)});
+function show(n){[...t.children].forEach(b=>b.classList.toggle("on",b.textContent===n));fx.innerHTML="<b>"+F[n][0]+"</b><p style='margin:6px 0 0'>"+F[n][1]+"</p>"}
+show("Disease");
+</script></body></html>
